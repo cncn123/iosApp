@@ -10,23 +10,21 @@
 		565A30382AB0505E00EF25C6 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565A30372AB0505E00EF25C6 /* Theme.swift */; };
 		565A303A2AB058A900EF25C6 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565A30392AB058A900EF25C6 /* DailyScrum.swift */; };
 		565A303C2AB05F5500EF25C6 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565A303B2AB05F5500EF25C6 /* CardView.swift */; };
-		565A303E2AB06AC000EF25C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 565A303D2AB06AC000EF25C6 /* Assets.xcassets */; };
 		C55E68C02AAF5B4200511663 /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55E68BF2AAF5B4200511663 /* ScrumdingerApp.swift */; };
 		C55E68C22AAF5B4200511663 /* Meeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55E68C12AAF5B4200511663 /* Meeting.swift */; };
-		C55E68C42AAF5B4300511663 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C55E68C32AAF5B4300511663 /* Assets.xcassets */; };
 		C55E68C72AAF5B4300511663 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C55E68C62AAF5B4300511663 /* Preview Assets.xcassets */; };
+		C55E68CE2AB0B80A00511663 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C55E68CD2AB0B80A00511663 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		565A30372AB0505E00EF25C6 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		565A30392AB058A900EF25C6 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		565A303B2AB05F5500EF25C6 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
-		565A303D2AB06AC000EF25C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Downloads/PersistingData/StartingProject/Scrumdinger/Assets.xcassets; sourceTree = "<group>"; };
 		C55E68BC2AAF5B4200511663 /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C55E68BF2AAF5B4200511663 /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		C55E68C12AAF5B4200511663 /* Meeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meeting.swift; sourceTree = "<group>"; };
-		C55E68C32AAF5B4300511663 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C55E68C62AAF5B4300511663 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C55E68CD2AB0B80A00511663 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Downloads/CreatingACardView/StartingProject/Scrumdinger/Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,11 +66,10 @@
 		C55E68BE2AAF5B4200511663 /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
-				565A303D2AB06AC000EF25C6 /* Assets.xcassets */,
+				C55E68CD2AB0B80A00511663 /* Assets.xcassets */,
 				565A30362AB0504800EF25C6 /* Models */,
 				C55E68BF2AAF5B4200511663 /* ScrumdingerApp.swift */,
 				C55E68C12AAF5B4200511663 /* Meeting.swift */,
-				C55E68C32AAF5B4300511663 /* Assets.xcassets */,
 				C55E68C52AAF5B4300511663 /* Preview Content */,
 				565A303B2AB05F5500EF25C6 /* CardView.swift */,
 			);
@@ -145,9 +142,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C55E68CE2AB0B80A00511663 /* Assets.xcassets in Resources */,
 				C55E68C72AAF5B4300511663 /* Preview Assets.xcassets in Resources */,
-				565A303E2AB06AC000EF25C6 /* Assets.xcassets in Resources */,
-				C55E68C42AAF5B4300511663 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
