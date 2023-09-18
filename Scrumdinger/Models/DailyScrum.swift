@@ -17,6 +17,9 @@ struct DailyScrum: Identifiable {
         get {
             Double(lengthInMinutes)
         }
+        set {
+            lengthInMinutes = Int(newValue)
+        }
     }
     var theme: Theme
     
