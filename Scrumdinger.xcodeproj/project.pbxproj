@@ -31,6 +31,7 @@
 		C55E68C22AAF5B4200511663 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55E68C12AAF5B4200511663 /* MeetingView.swift */; };
 		C55E68C72AAF5B4300511663 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C55E68C62AAF5B4300511663 /* Preview Assets.xcassets */; };
 		C55E68D02AB203E200511663 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C55E68CF2AB203E200511663 /* Assets.xcassets */; };
+		C5E96B432AD5961200C84FD9 /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E96B422AD5961200C84FD9 /* MeetingTimerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		C55E68C12AAF5B4200511663 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		C55E68C62AAF5B4300511663 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C55E68CF2AB203E200511663 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5E96B422AD5961200C84FD9 /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				565A30492AB8000200EF25C6 /* ThemeView.swift */,
 				568EFDA52AC43E54009B0C9E /* NewScrumSheet.swift */,
 				56E8C7982ACE8FED00613A0D /* ErrorView.swift */,
+				C5E96B422AD5961200C84FD9 /* MeetingTimerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 				568EFD9F2AC1E5D7009B0C9E /* ScrumProgressViewStyle.swift in Sources */,
 				56E8C7992ACE8FED00613A0D /* ErrorView.swift in Sources */,
 				565A303A2AB058A900EF25C6 /* DailyScrum.swift in Sources */,
+				C5E96B432AD5961200C84FD9 /* MeetingTimerView.swift in Sources */,
 				565A30462AB3062800EF25C6 /* DetailView.swift in Sources */,
 				568EFDAA2ACD0EE6009B0C9E /* ScrumStore.swift in Sources */,
 				566530202AC14B3A00BDC502 /* MeetingHeaderView.swift in Sources */,
