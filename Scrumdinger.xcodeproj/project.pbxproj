@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5640D5B62AD7965D00D15084 /* SpeakerArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5640D5B52AD7965D00D15084 /* SpeakerArc.swift */; };
 		565A30382AB0505E00EF25C6 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565A30372AB0505E00EF25C6 /* Theme.swift */; };
 		565A303A2AB058A900EF25C6 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565A30392AB058A900EF25C6 /* DailyScrum.swift */; };
 		565A303C2AB05F5500EF25C6 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565A303B2AB05F5500EF25C6 /* CardView.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5640D5B52AD7965D00D15084 /* SpeakerArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerArc.swift; sourceTree = "<group>"; };
 		565A30372AB0505E00EF25C6 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		565A30392AB058A900EF25C6 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		565A303B2AB05F5500EF25C6 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				568EFDA52AC43E54009B0C9E /* NewScrumSheet.swift */,
 				56E8C7982ACE8FED00613A0D /* ErrorView.swift */,
 				C5E96B422AD5961200C84FD9 /* MeetingTimerView.swift */,
+				5640D5B52AD7965D00D15084 /* SpeakerArc.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 				565A304C2AB8271200EF25C6 /* ThemePicker.swift in Sources */,
 				56B5E1C12AC18B6C007BC207 /* MeetingFooterView.swift in Sources */,
 				568EFD9F2AC1E5D7009B0C9E /* ScrumProgressViewStyle.swift in Sources */,
+				5640D5B62AD7965D00D15084 /* SpeakerArc.swift in Sources */,
 				56E8C7992ACE8FED00613A0D /* ErrorView.swift in Sources */,
 				565A303A2AB058A900EF25C6 /* DailyScrum.swift in Sources */,
 				C5E96B432AD5961200C84FD9 /* MeetingTimerView.swift in Sources */,
