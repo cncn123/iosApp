@@ -47,11 +47,13 @@ struct MeetingView: View {
             player.play()
         }
         speechRecognizer.resetTranscript()
+        speechRecognizer.startTranscribing()
         scrumTimer.startScrum()
     }
     
     private func endScrum() {
         scrumTimer.stopScrum()
+        speechRecognizer.stopTranscribing()
         let newHistory = History(attendees: scrum.attendees)
         scrum.history.insert(newHistory, at: 0)
     }
